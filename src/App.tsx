@@ -6,6 +6,7 @@ function App() {
   let 결혼했니 :boolean = false;
   let 회원들 :string[] = ['kim','park'];
   let 내정보 : {age : number} = {age : 20}
+  let 아무거나 :unknown = [];
   type Member = {
     [key :string] : string, 
   }
@@ -19,7 +20,7 @@ function App() {
     days : 30,
     started : true,
   }
-  
+
   return (
     <div className="App">
       {john.name}
